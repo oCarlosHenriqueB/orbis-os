@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — Orbis OS</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #F0F4F8;
+      color: #111827;
+      padding: 24px 16px 48px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    header {
+      background: #0B4F6C;
+      color: white;
+      padding: 32px 24px;
+      border-radius: 16px;
+      margin-bottom: 32px;
+    }
+    header h1 { font-size: 24px; font-weight: 700; margin-bottom: 4px; }
+    header p { font-size: 14px; opacity: 0.8; }
+    section {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+      border: 1px solid #E5E7EB;
+    }
+    h2 { font-size: 16px; font-weight: 600; color: #0B4F6C; margin-bottom: 12px; }
+    p, li { font-size: 14px; line-height: 1.7; color: #374151; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    footer { text-align: center; font-size: 12px; color: #9CA3AF; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Política de Privacidade</h1>
+      <p>Orbis OS — Gerenciador de Ordens de Serviço · Atualizado em junho de 2025</p>
+    </header>
+
+    <section>
+      <h2>1. Sobre o Aplicativo</h2>
+      <p>
+        O <strong>Orbis OS</strong> é um sistema de gerenciamento de ordens de serviço
+        desenvolvido exclusivamente para uso interno na Engenharia Clínica do
+        <strong>Hospital e Maternidade Municipal Santa Ana</strong>, localizado em
+        Santana de Parnaíba — SP. O aplicativo é destinado aos técnicos e profissionais
+        da instituição.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Dados Coletados</h2>
+      <p>O aplicativo coleta e armazena apenas os dados necessários para seu funcionamento:</p>
+      <ul>
+        <li><strong>Autenticação:</strong> endereço de e-mail e senha (gerenciados pelo Firebase Authentication).</li>
+        <li><strong>Ordens de Serviço:</strong> número, equipamento, setor, tipo de manutenção, descrição do problema e solução, técnico responsável e datas.</li>
+        <li><strong>Equipamentos:</strong> nome, marca, modelo, NTag/patrimônio, setor e criticidade.</li>
+        <li><strong>Preferências locais:</strong> nome do técnico, armazenado apenas no dispositivo via SharedPreferences.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Uso dos Dados</h2>
+      <p>Os dados são utilizados exclusivamente para:</p>
+      <ul>
+        <li>Gerenciamento interno de ordens de serviço hospitalares.</li>
+        <li>Controle e rastreabilidade de manutenções de equipamentos biomédicos.</li>
+        <li>Geração de relatórios operacionais para uso interno.</li>
+      </ul>
+      <p style="margin-top:12px;">
+        <strong>Nenhum dado é compartilhado com terceiros, vendido ou utilizado para fins
+        publicitários.</strong>
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Armazenamento e Segurança</h2>
+      <p>
+        Os dados são armazenados no <strong>Firebase Firestore</strong> (Google Cloud),
+        com acesso restrito por autenticação. Apenas usuários autorizados pela instituição
+        possuem credenciais de acesso ao sistema. As senhas são gerenciadas pelo
+        Firebase Authentication e nunca são armazenadas em texto simples.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Acesso e Exclusão de Dados</h2>
+      <p>
+        Por se tratar de um sistema de uso interno hospitalar, o acesso e a exclusão de
+        dados são gerenciados pelo administrador do sistema da instituição. Em caso de
+        solicitação, entre em contato com a Engenharia Clínica do hospital.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Serviços de Terceiros</h2>
+      <p>O aplicativo utiliza os seguintes serviços do Google:</p>
+      <ul>
+        <li><strong>Firebase Authentication</strong> — autenticação de usuários.</li>
+        <li><strong>Cloud Firestore</strong> — banco de dados em nuvem.</li>
+      </ul>
+      <p style="margin-top:12px;">
+        Consulte a
+        <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a>
+        para mais informações.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Contato</h2>
+      <p>
+        Para dúvidas sobre esta política, entre em contato com o desenvolvedor:
+        <strong>ocarloshenriqueb@gmail.com</strong>
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2025 Orbis OS · Hospital e Maternidade Municipal Santa Ana</p>
+    </footer>
+  </div>
+</body>
+</html>

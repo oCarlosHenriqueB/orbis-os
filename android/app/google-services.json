@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187528622092",
+    "project_id": "orbis-os",
+    "storage_bucket": "orbis-os.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187528622092:android:af3b0d43466d61f2debe29",
+        "android_client_info": {
+          "package_name": "com.carlosbresio.clinical_os_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTUgJaqzUrpQN2YHWaiYH5qNW9Gdv-88c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
