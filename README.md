@@ -1,17 +1,24 @@
-# smart_maintenance_app
+# Orbis — Gerenciador de Ordens de Serviço para Engenharia Clínica
 
-A new Flutter project.
+Aplicativo mobile desenvolvido em Flutter para otimizar a gestão de equipamentos médicos, ordens de serviço e processos técnicos em hospitais e clínicas.
 
-## Getting Started
+## 🏥 Problema que resolve
 
-This project is a starting point for a Flutter application.
+Equipes de engenharia clínica enfrentam dificuldades para gerenciar ordens de serviço, controlar manutenções e rastrear equipamentos médicos de forma centralizada. O Orbis digitaliza e simplifica esse processo.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Funcionalidades
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Criação e acompanhamento de ordens de serviço
+- Controle de equipamentos médicos por setor
+- Registro de manutenções preventivas e corretivas
+- Histórico técnico de cada equipamento
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologias
+
+- Flutter / Dart
+- Android e iOS
+
+## 👨‍💻 Autor
+
+Carlos Henrique Bresio
+[LinkedIn](https://www.linkedin.com/in/carlos-henrique-bresio-8a7057191/) | [Portfólio](https://ocarloshenriqueb.github.io/Meu-Portifolio/)
