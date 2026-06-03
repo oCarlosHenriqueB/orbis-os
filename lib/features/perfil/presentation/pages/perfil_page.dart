@@ -173,7 +173,7 @@ class _PerfilPageState extends State<PerfilPage> {
               titulo: 'Sobre o App',
               children: [
                 _InfoItem(icon: Icons.apps_outlined,
-                    label: 'Sistema', value: 'Orbis OS'),
+                    label: 'Sistema', value: 'HospOS'),
                 _InfoItem(icon: Icons.build_circle_outlined,
                     label: 'Versão', value: '1.0.0'),
                 _InfoItem(icon: Icons.category_outlined,
@@ -233,7 +233,7 @@ class _PerfilPageState extends State<PerfilPage> {
       context: context,
       builder: (_) => AlertDialog(
         title: const Text('Sair'),
-        content: const Text('Deseja sair do Orbis OS?'),
+        content: const Text('Deseja sair do HospOS?'),
         actions: [
           TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancelar')),
           TextButton(

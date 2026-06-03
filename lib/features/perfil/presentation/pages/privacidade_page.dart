@@ -18,7 +18,7 @@ class PrivacidadePage extends StatelessWidget {
             _Secao(
               titulo: 'Sobre o Aplicativo',
               conteudo:
-                  'O Orbis OS é um sistema de gerenciamento de ordens de serviço '
+                  'O HospOS é um sistema de gerenciamento de ordens de serviço '
                   'desenvolvido exclusivamente para uso interno na Engenharia Clínica '
                   'do Hospital e Maternidade Municipal Santa Ana — Santana de Parnaíba/SP.',
             ),

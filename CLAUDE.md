@@ -171,14 +171,20 @@ ativo (bool), ultimaManutencao? (Timestamp)
 ## Pendências / Próximos Passos
 
 ### Para publicar na Play Store (checklist)
-1. ✅ Ícone + splash configurados
-2. ⬜ Rodar `flutter pub get && dart run flutter_launcher_icons && dart run flutter_native_splash:create`
-3. ⬜ Gerar keystore: `keytool -genkey -v -keystore ~/orbis-os-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias orbis-os`
-4. ⬜ Criar `android/key.properties` com as senhas do keystore
-5. ⬜ Gerar AAB: `flutter build appbundle --release`
-6. ⬜ Ativar GitHub Pages no repositório (`/docs` branch `main`) → URL da política
-7. ⬜ Criar conta Google Play Console ($25 taxa única)
+1. ✅ Ícone + splash gerados (`dart run flutter_launcher_icons` + `dart run flutter_native_splash:create`)
+2. ✅ Keystore gerado: `~/orbis-os-key.jks` — senha: `OrbisOS2025` — alias: `orbis-os`
+3. ✅ `android/key.properties` criado (não commitado no git)
+4. ✅ AAB gerado e assinado: `build/app/outputs/bundle/release/app-release.aab` (57.7MB)
+5. ✅ Código commitado e pushed para o GitHub
+6. ⬜ Ativar GitHub Pages no repositório (`/docs` branch `main`) → `https://ocarloshenriqueb.github.io/orbis-os/privacy-policy.html`
+7. ⬜ Criar conta Google Play Console ($25 taxa única) → play.google.com/console
 8. ⬜ Fazer upload do `.aab` na Play Store
+
+### IMPORTANTE — Keystore
+- Arquivo: `~/orbis-os-key.jks` (na home do Mac, NÃO no projeto)
+- Senha: `OrbisOS2025`
+- Alias: `orbis-os`
+- Faça backup desse arquivo em local seguro — sem ele não dá para publicar atualizações
 
 ### Futuro (pós-publicação)
 - Exportar relatórios em PDF

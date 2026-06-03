@@ -18,7 +18,7 @@ class DashboardPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(
-        title: const Text('Orbis OS'),
+        title: const Text('HospOS'),
         actions: [
           IconButton(
             icon: const Icon(Icons.bar_chart_outlined),
@@ -178,7 +178,7 @@ class DashboardPage extends StatelessWidget {
       context: context,
       builder: (_) => AlertDialog(
         title: const Text('Sair'),
-        content: const Text('Deseja sair do Orbis OS?'),
+        content: const Text('Deseja sair do HospOS?'),
         actions: [
           TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancelar')),
           TextButton(

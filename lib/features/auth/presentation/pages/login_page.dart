@@ -68,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     const Gap(24),
                     Center(
-                      child: Text('Orbis OS', style: Theme.of(context).textTheme.headlineMedium),
+                      child: Text('HospOS', style: Theme.of(context).textTheme.headlineMedium),
                     ),
                     Center(
                       child: Text('Engenharia Clínica Hospitalar',

@@ -20,7 +20,7 @@ class OrbisApp extends StatelessWidget {
     return BlocProvider(
       create: (_) => AuthBloc()..add(AuthCheckRequested()),
       child: MaterialApp.router(
-        title: 'Orbis OS',
+        title: 'HospOS',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme,
         routerConfig: appRouter,

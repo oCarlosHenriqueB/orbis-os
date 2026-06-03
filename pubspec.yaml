@@ -1,4 +1,4 @@
-name: clinical_os_manager
+name: hospos
 description: Smart Maintenance App - Gerenciamento inteligente de manutenções e equipamentos.
 publish_to: 'none'
 version: 1.0.0+1
